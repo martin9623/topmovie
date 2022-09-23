@@ -1,0 +1,113 @@
+.main {
+    background-color: black;
+}
+
+.title {
+    padding-top: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.title::before {
+    content: '⭐ ';
+    position: relative;
+    top: -5px;
+    font-size: 30px;
+}
+
+.title::after {
+    content: ' 🎬';
+    position: relative;
+    top: -5px;
+    font-size: 30px;
+}
+
+.disclaimer {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0 25px 0;
+}
+
+.disclaimer::before {
+    content: '👉';
+    position: relative;
+    right: 20px;
+}
+
+.info-cont {
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 35vw;
+    text-align: center;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.card-title {
+    height: 40px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.poster {
+    border-radius: 20px;
+    width: 35vw;
+    margin-top: 5px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(10px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 30px 50px;
+}
+
+.modal-img-img {
+    max-width: 50vw;
+    border-radius: 20px;
+}
+
+.modal-cont {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block {
+    overflow: hidden;
+}
+
+.about-us {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(10px);
+    padding: 0 50px;
+}
